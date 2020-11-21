@@ -1,0 +1,41 @@
+#filters {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: block;
+    float: none;
+    z-index: 2;
+    position: relative;
+}
+
+#filters ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#filters ul li a {
+    display: block;
+}
+
+#filters ul li a h5 {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border-radius: 4px;
+    display: inline-block;
+    
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+    background: #fff;
+    border: #C2C2C2 solid 1px;
+    color: #7C7C7C;
+}
+
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+    background: #fff;
+    color: #df0031;
+    text-decoration: none;
+    border: #df0031 solid 1px;
+}
